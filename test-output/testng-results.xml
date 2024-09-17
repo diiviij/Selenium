@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-17T05:40:44Z" name="Well-Test" finished-at="2024-09-17T05:41:47Z" duration-ms="63248">
+    <groups>
+    </groups>
+    <test started-at="2024-09-17T05:40:44Z" name="Test" finished-at="2024-09-17T05:41:47Z" duration-ms="63248">
+      <class name="Testcases.TC_01_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:40:44Z" name="setup" finished-at="2024-09-17T05:41:06Z" duration-ms="22005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://test-nuxt.wellcertified.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login()[pri:1, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:41:06Z" name="Login" finished-at="2024-09-17T05:41:22Z" duration-ms="16372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ProjectEnrollment()[pri:2, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:41:22Z" name="ProjectEnrollment" finished-at="2024-09-17T05:41:35Z" duration-ms="12385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectEnrollment -->
+        <test-method signature="logout()[pri:3, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:41:35Z" name="logout" finished-at="2024-09-17T05:41:46Z" duration-ms="11299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:41:46Z" name="teardown" finished-at="2024-09-17T05:41:47Z" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.TC_01_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Well-Test -->
+</testng-results>

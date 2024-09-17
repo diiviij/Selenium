@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Well-Login]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Url" value="https://test-nuxt.wellcertified.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testcases.TC_01_LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="ProjectEnrollment"/>
+        </methods>
+      </class> <!-- Testcases.TC_01_LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Well-Login] -->

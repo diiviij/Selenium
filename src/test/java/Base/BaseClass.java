@@ -27,6 +27,7 @@ public class BaseClass {
 		Driver=new FirefoxDriver();
 	}
 	Driver.manage().window().maximize();
+	Driver.manage().window().fullscreen();
 	Driver.get(Url);
 	System.out.println("Current Url: "+Driver.getCurrentUrl());
 

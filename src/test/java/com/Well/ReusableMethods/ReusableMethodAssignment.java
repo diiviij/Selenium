@@ -42,7 +42,6 @@ public class ReusableMethodAssignment extends BaseClass {
 		String PostalCode = USfaker.address().zipCode();
 		CommonMethod.sendKeys("StreetInputBox",ProjectAddress);
 		CommonMethod.scrollDown();
-		Thread.sleep(4000);
 		CommonMethod.sendKeys("CityInputBox",ProjectCity);
 		CommonMethod.sendKeys("PostalCodeInputBox",PostalCode);
 		CommonMethod.RobustclickElementVisible("ContinueBtninLocation","AreaInputBtn");
@@ -79,9 +78,10 @@ public class ReusableMethodAssignment extends BaseClass {
 		CommonMethod.click("V2ProjectIdAssignment");
 		CommonMethod.sendKeys("V2ProjectIdAssignment", data.getCellData(SheetName, "ProjectID", rowNum));
 		CommonMethod.RobustclickElementVisible("V2ProjectApplybtnAssignment", "EnrollSearchPaginationAssignment");
+		Thread.sleep(4000);
 		CommonMethod.WaitUntilNumberOfElementToBePresentMoreThan("ProjectIdclick", 0);
 		CommonMethod.RobustclickElementVisible("ProjectIdclick", "EnrollTabAssignment");
-//		CommonMethod.WaitUntilNumberOfElementToBePresentMoreThan("EnrollTabAssignment", 0);
+		CommonMethod.WaitUntilNumberOfElementToBePresentMoreThan("EnrollTabAssignment", 0);
 		CommonMethod.RobustclickElementVisible("EnrollTabAssignment", "V2ProjectprojectOwnerContinuebtnAssignment");
 		rc.SelectOwnerOrg(SheetName, rowNum);
 		data.setCellData(SheetName, "OrgName", rowNum, CommonMethod.getText("OwnerOrgClick"));

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
+<<<<<<< HEAD
 <suite name="Suite">
 
 <parameter name="browserName" value="chrome"/>
@@ -54,3 +53,5 @@
 
 </suite> <!-- Suite -->
 
+=======
+>>>>>>> 3060032a8b0b750395207cd1b07e31f16b07b973

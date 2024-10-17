@@ -1,13 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-17T12:42:26Z" name="Well-Test" finished-at="2024-09-17T12:43:01Z" duration-ms="34825">
+  <suite started-at="2024-10-16T06:50:53Z" name="WELL Frontend Regression" finished-at="2024-10-16T06:54:42Z" duration-ms="229002">
     <groups>
     </groups>
-    <test started-at="2024-09-17T12:42:26Z" name="Test" finished-at="2024-09-17T12:43:01Z" duration-ms="34825">
-      <class name="Testcases.TC_01_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Testcases.TC_01_LoginTest@42b02722]" started-at="2024-09-17T12:42:26Z" name="setup" finished-at="2024-09-17T12:42:38Z" duration-ms="12300" status="PASS">
+    <test started-at="2024-10-16T06:50:53Z" name="WELL-V2-CoreProject-Single Assert-Optn-Rating" finished-at="2024-10-16T06:54:42Z" duration-ms="229002">
+      <class name="com.Well.testcases.login.AssignmentTask02">
+        <test-method signature="TC_01_LoginTask(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94]" started-at="2024-10-16T06:51:03Z" name="TC_01_LoginTask" finished-at="2024-10-16T06:53:02Z" duration-ms="119232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2Project]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ProjectName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginTask -->
+        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94]" started-at="2024-10-16T06:51:03Z" name="ExtentReportConfig" finished-at="2024-10-16T06:51:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94]" started-at="2024-10-16T06:53:02Z" name="getResult" finished-at="2024-10-16T06:53:02Z" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_LoginTask status=SUCCESS method=AssignmentTask02.TC_01_LoginTask(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94]" started-at="2024-10-16T06:53:02Z" name="flushReport" finished-at="2024-10-16T06:53:02Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.Well.testcases.login.AssignmentTask02 -->
+      <class name="com.Well.testcases.login.TC_01_EnrollV2Project">
+        <test-method signature="TC_01_Enroll(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9]" started-at="2024-10-16T06:53:02Z" name="TC_01_Enroll" finished-at="2024-10-16T06:54:41Z" duration-ms="99306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2Project]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Enroll -->
+        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9]" started-at="2024-10-16T06:53:02Z" name="ExtentReportConfig" finished-at="2024-10-16T06:53:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9]" started-at="2024-10-16T06:54:41Z" name="getResult" finished-at="2024-10-16T06:54:42Z" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_Enroll status=SUCCESS method=TC_01_EnrollV2Project.TC_01_Enroll(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9]" started-at="2024-10-16T06:54:42Z" name="flushReport" finished-at="2024-10-16T06:54:42Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.Well.testcases.login.TC_01_EnrollV2Project -->
+      <class name="com.Well.testcases.login.TC_01_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-16T06:50:36Z" name="setup" finished-at="2024-10-16T06:50:53Z" duration-ms="16305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,89 +100,76 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://test-nuxt.wellcertified.com]]>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[V2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:1, instance:Testcases.TC_01_LoginTest@42b02722]" started-at="2024-09-17T12:42:38Z" name="Login" finished-at="2024-09-17T12:42:43Z" duration-ms="4576" status="PASS">
+        <test-method is-config="true" signature="getTestNGTestName(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-16T06:50:53Z" name="getTestNGTestName" finished-at="2024-10-16T06:50:53Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b5c0806]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="ProjectEnrollment()[pri:2, instance:Testcases.TC_01_LoginTest@42b02722]" started-at="2024-09-17T12:42:43Z" name="ProjectEnrollment" finished-at="2024-09-17T12:43:00Z" duration-ms="17525" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Start a v2 Project')]"}
-  (Session info: chrome=128.0.6613.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8b0d9b1f4b8fb734b280919bed7fca72, findElement {using=xpath, value=//button[contains(text(),'Start a v2 Project')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\DIVIJJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63249/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b0d9b1f4b8fb734b280919bed7fca72]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Start a v2 Project')]"}
-  (Session info: chrome=128.0.6613.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8b0d9b1f4b8fb734b280919bed7fca72, findElement {using=xpath, value=//button[contains(text(),'Start a v2 Project')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\DIVIJJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63249/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b0d9b1f4b8fb734b280919bed7fca72
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at Testcases.TC_01_LoginTest.ProjectEnrollment(TC_01_LoginTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- getTestNGTestName -->
+        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-16T06:50:53Z" name="ExtentReportConfig" finished-at="2024-10-16T06:50:54Z" duration-ms="1091" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProjectEnrollment -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TC_01_LoginTest@42b02722]" started-at="2024-09-17T12:43:00Z" name="teardown" finished-at="2024-09-17T12:43:01Z" duration-ms="384" status="PASS">
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="TC_01_Login()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-16T06:50:54Z" name="TC_01_Login" finished-at="2024-10-16T06:51:02Z" duration-ms="8332" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.TC_01_LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Well-Test -->
+        </test-method> <!-- TC_01_Login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-16T06:51:02Z" name="getResult" finished-at="2024-10-16T06:51:02Z" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_Login status=SUCCESS method=TC_01_LoginTest.TC_01_Login()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-16T06:51:02Z" name="flushReport" finished-at="2024-10-16T06:51:03Z" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-16T06:54:42Z" name="quit" finished-at="2024-10-16T06:54:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-16T06:54:42Z" name="end" finished-at="2024-10-16T06:54:42Z" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.Well.testcases.login.TC_01_LoginTest -->
+    </test> <!-- WELL-V2-CoreProject-Single Assert-Optn-Rating -->
+  </suite> <!-- WELL Frontend Regression -->
 </testng-results>

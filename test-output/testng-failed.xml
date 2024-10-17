@@ -1,17 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Well-Test]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
-  <parameter name="Url" value="https://test-nuxt.wellcertified.com"/>
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [WELL Frontend Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="environment" value="Test"/>
+  <parameter name="moduleName" value="V2"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="videoRecording" value="true"/>
+  <parameter name="SecurtiyTest" value="false"/>
+  <listeners>
+    <listener class-name="com.Well.Engine.TestNGEmailableReport2"/>
+  </listeners>
+  <test thread-count="5" name="WELL-V2-CoreProject-Single Assert-Optn-Rating(failed)">
+    <parameter name="ProjectName" value="ProjectName"/>
+    <parameter name="rowNum" value="20"/>
+    <parameter name="Country" value="US"/>
+    <parameter name="SheetName" value="V2Project"/>
     <classes>
-      <class name="Testcases.TC_01_LoginTest">
+      <class name="com.Well.testcases.login.TC_01_EnrollV2Project">
         <methods>
+          <include name="getResult"/>
+          <include name="TC_01_Enroll"/>
+          <include name="getTestNGTestName"/>
+          <include name="ExtentReportConfig"/>
           <include name="setup"/>
-          <include name="teardown"/>
-          <include name="ProjectEnrollment"/>
+          <include name="end"/>
+          <include name="quit"/>
+          <include name="flushReport"/>
         </methods>
-      </class> <!-- Testcases.TC_01_LoginTest -->
+      </class> <!-- com.Well.testcases.login.TC_01_EnrollV2Project -->
+      <class name="com.Well.testcases.login.TC_01_LoginTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="getTestNGTestName"/>
+          <include name="TC_01_Login"/>
+          <include name="ExtentReportConfig"/>
+          <include name="setup"/>
+          <include name="end"/>
+          <include name="quit"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- com.Well.testcases.login.TC_01_LoginTest -->
+      <class name="com.Well.testcases.login.AssignmentTask02">
+        <methods>
+          <include name="getResult"/>
+          <include name="getTestNGTestName"/>
+          <include name="ExtentReportConfig"/>
+          <include name="TC_01_LoginTask"/>
+          <include name="setup"/>
+          <include name="end"/>
+          <include name="quit"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- com.Well.testcases.login.AssignmentTask02 -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Well-Test] -->
+  </test> <!-- WELL-V2-CoreProject-Single Assert-Optn-Rating(failed) -->
+</suite> <!-- Failed suite [WELL Frontend Regression] -->

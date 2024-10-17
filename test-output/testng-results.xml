@@ -2,16 +2,16 @@
 <testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-17T06:57:08Z" name="WELL Frontend Regression" finished-at="2024-10-17T07:00:50Z" duration-ms="221992">
+  <suite started-at="2024-10-17T07:14:06Z" name="WELL Frontend Regression" finished-at="2024-10-17T07:18:30Z" duration-ms="264087">
     <groups>
     </groups>
-    <test started-at="2024-10-17T06:57:08Z" name="WELL-V2-CoreProject-Single Assert-Optn-Rating" finished-at="2024-10-17T07:00:50Z" duration-ms="221992">
+    <test started-at="2024-10-17T07:14:06Z" name="WELL-V2-CoreProject-Single Assert-Optn-Rating" finished-at="2024-10-17T07:18:30Z" duration-ms="264087">
       <class name="com.Well.testcases.login.AssignmentTask02">
-        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94]" started-at="2024-10-17T06:57:20Z" name="ExtentReportConfig" finished-at="2024-10-17T06:57:20Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2]" started-at="2024-10-17T07:14:28Z" name="ExtentReportConfig" finished-at="2024-10-17T07:14:28Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportConfig -->
-        <test-method signature="TC_01_LoginTask(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94]" started-at="2024-10-17T06:57:20Z" name="TC_01_LoginTask" finished-at="2024-10-17T06:59:15Z" duration-ms="114526" status="PASS">
+        <test-method signature="TC_01_LoginTask(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2]" started-at="2024-10-17T07:14:28Z" name="TC_01_LoginTask" finished-at="2024-10-17T07:16:46Z" duration-ms="138057" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,28 +32,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_LoginTask -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94]" started-at="2024-10-17T06:59:15Z" name="getResult" finished-at="2024-10-17T06:59:15Z" duration-ms="278" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2]" started-at="2024-10-17T07:16:46Z" name="getResult" finished-at="2024-10-17T07:16:46Z" duration-ms="136" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_01_LoginTask status=SUCCESS method=AssignmentTask02.TC_01_LoginTask(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94] output={null}]]]>
+                <![CDATA[[TestResult name=TC_01_LoginTask status=SUCCESS method=AssignmentTask02.TC_01_LoginTask(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.AssignmentTask02@50f6ac94]" started-at="2024-10-17T06:59:15Z" name="flushReport" finished-at="2024-10-17T06:59:15Z" duration-ms="54" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2]" started-at="2024-10-17T07:16:46Z" name="flushReport" finished-at="2024-10-17T07:16:46Z" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
       </class> <!-- com.Well.testcases.login.AssignmentTask02 -->
       <class name="com.Well.testcases.login.TC_01_EnrollV2Project">
-        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9]" started-at="2024-10-17T06:59:15Z" name="ExtentReportConfig" finished-at="2024-10-17T06:59:15Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70]" started-at="2024-10-17T07:16:46Z" name="ExtentReportConfig" finished-at="2024-10-17T07:16:46Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportConfig -->
-        <test-method signature="TC_01_Enroll(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9]" started-at="2024-10-17T06:59:15Z" name="TC_01_Enroll" finished-at="2024-10-17T07:00:49Z" duration-ms="94528" status="PASS">
+        <test-method signature="TC_01_Enroll(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70]" started-at="2024-10-17T07:16:46Z" name="TC_01_Enroll" finished-at="2024-10-17T07:18:30Z" duration-ms="103819" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,24 +74,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Enroll -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9]" started-at="2024-10-17T07:00:49Z" name="getResult" finished-at="2024-10-17T07:00:50Z" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70]" started-at="2024-10-17T07:18:30Z" name="getResult" finished-at="2024-10-17T07:18:30Z" duration-ms="124" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_01_Enroll status=SUCCESS method=TC_01_EnrollV2Project.TC_01_Enroll(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9] output={null}]]]>
+                <![CDATA[[TestResult name=TC_01_Enroll status=SUCCESS method=TC_01_EnrollV2Project.TC_01_Enroll(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@6cc4cdb9]" started-at="2024-10-17T07:00:50Z" name="flushReport" finished-at="2024-10-17T07:00:50Z" duration-ms="47" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70]" started-at="2024-10-17T07:18:30Z" name="flushReport" finished-at="2024-10-17T07:18:30Z" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
       </class> <!-- com.Well.testcases.login.TC_01_EnrollV2Project -->
       <class name="com.Well.testcases.login.TC_01_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-17T06:56:52Z" name="setup" finished-at="2024-10-17T06:57:08Z" duration-ms="16080" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:13:53Z" name="setup" finished-at="2024-10-17T07:14:06Z" duration-ms="12774" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,11 +122,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getTestNGTestName(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-17T06:57:08Z" name="getTestNGTestName" finished-at="2024-10-17T06:57:08Z" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getTestNGTestName(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:06Z" name="getTestNGTestName" finished-at="2024-10-17T07:14:06Z" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@71f4a826]]>
+                <![CDATA[org.testng.TestRunner@450c57b3]]>
               </value>
             </param>
             <param index="1">
@@ -138,34 +138,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestNGTestName -->
-        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-17T06:57:08Z" name="ExtentReportConfig" finished-at="2024-10-17T06:57:09Z" duration-ms="1426" status="PASS">
+        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:06Z" name="ExtentReportConfig" finished-at="2024-10-17T07:14:07Z" duration-ms="1539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportConfig -->
-        <test-method signature="TC_01_Login()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-17T06:57:09Z" name="TC_01_Login" finished-at="2024-10-17T06:57:19Z" duration-ms="10018" status="PASS">
+        <test-method signature="TC_01_Login()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:07Z" name="TC_01_Login" finished-at="2024-10-17T07:14:27Z" duration-ms="19534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Login -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-17T06:57:19Z" name="getResult" finished-at="2024-10-17T06:57:20Z" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:27Z" name="getResult" finished-at="2024-10-17T07:14:27Z" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_01_Login status=SUCCESS method=TC_01_LoginTest.TC_01_Login()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f] output={null}]]]>
+                <![CDATA[[TestResult name=TC_01_Login status=SUCCESS method=TC_01_LoginTest.TC_01_Login()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-17T06:57:20Z" name="flushReport" finished-at="2024-10-17T06:57:20Z" duration-ms="552" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:27Z" name="flushReport" finished-at="2024-10-17T07:14:28Z" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-17T07:00:50Z" name="quit" finished-at="2024-10-17T07:00:50Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:18:30Z" name="quit" finished-at="2024-10-17T07:18:30Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@e3b3b2f]" started-at="2024-10-17T07:00:50Z" name="end" finished-at="2024-10-17T07:00:50Z" duration-ms="415" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:18:30Z" name="end" finished-at="2024-10-17T07:18:32Z" duration-ms="1822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

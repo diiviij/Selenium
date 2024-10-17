@@ -42,6 +42,7 @@ public class ReusableMethodAssignment extends BaseClass {
 		String PostalCode = USfaker.address().zipCode();
 		CommonMethod.sendKeys("StreetInputBox",ProjectAddress);
 		CommonMethod.scrollDown();
+		Thread.sleep(4000);
 		CommonMethod.sendKeys("CityInputBox",ProjectCity);
 		CommonMethod.sendKeys("PostalCodeInputBox",PostalCode);
 		CommonMethod.RobustclickElementVisible("ContinueBtninLocation","AreaInputBtn");

@@ -8,7 +8,7 @@ import Base.BaseClass;
 
 public class TC_01_Logout extends BaseClass{
 	
-	@Test
+	@Test(priority=3)
 	public void Logout() throws InterruptedException
 	{
 		WebElement logouticon=Driver.findElement(By.xpath("//div[@class=\"h-8 w-8 rounded-full bg-cover overflow-hidden\"]"));

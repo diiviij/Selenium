@@ -1,13 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-17T05:40:44Z" name="Well-Test" finished-at="2024-09-17T05:41:47Z" duration-ms="63248">
+  <suite started-at="2024-10-17T07:14:06Z" name="WELL Frontend Regression" finished-at="2024-10-17T07:18:30Z" duration-ms="264087">
     <groups>
     </groups>
-    <test started-at="2024-09-17T05:40:44Z" name="Test" finished-at="2024-09-17T05:41:47Z" duration-ms="63248">
-      <class name="Testcases.TC_01_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:40:44Z" name="setup" finished-at="2024-09-17T05:41:06Z" duration-ms="22005" status="PASS">
+    <test started-at="2024-10-17T07:14:06Z" name="WELL-V2-CoreProject-Single Assert-Optn-Rating" finished-at="2024-10-17T07:18:30Z" duration-ms="264087">
+      <class name="com.Well.testcases.login.AssignmentTask02">
+        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2]" started-at="2024-10-17T07:14:28Z" name="ExtentReportConfig" finished-at="2024-10-17T07:14:28Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="TC_01_LoginTask(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2]" started-at="2024-10-17T07:14:28Z" name="TC_01_LoginTask" finished-at="2024-10-17T07:16:46Z" duration-ms="138057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2Project]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ProjectName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginTask -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2]" started-at="2024-10-17T07:16:46Z" name="getResult" finished-at="2024-10-17T07:16:46Z" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_LoginTask status=SUCCESS method=AssignmentTask02.TC_01_LoginTask(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.AssignmentTask02@24c1b2d2]" started-at="2024-10-17T07:16:46Z" name="flushReport" finished-at="2024-10-17T07:16:46Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.Well.testcases.login.AssignmentTask02 -->
+      <class name="com.Well.testcases.login.TC_01_EnrollV2Project">
+        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70]" started-at="2024-10-17T07:16:46Z" name="ExtentReportConfig" finished-at="2024-10-17T07:16:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="TC_01_Enroll(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70]" started-at="2024-10-17T07:16:46Z" name="TC_01_Enroll" finished-at="2024-10-17T07:18:30Z" duration-ms="103819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V2Project]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Enroll -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70]" started-at="2024-10-17T07:18:30Z" name="getResult" finished-at="2024-10-17T07:18:30Z" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_Enroll status=SUCCESS method=TC_01_EnrollV2Project.TC_01_Enroll(java.lang.String, int, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.TC_01_EnrollV2Project@7dc19a70]" started-at="2024-10-17T07:18:30Z" name="flushReport" finished-at="2024-10-17T07:18:30Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.Well.testcases.login.TC_01_EnrollV2Project -->
+      <class name="com.Well.testcases.login.TC_01_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:13:53Z" name="setup" finished-at="2024-10-17T07:14:06Z" duration-ms="12774" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,30 +100,76 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://test-nuxt.wellcertified.com]]>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[V2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:1, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:41:06Z" name="Login" finished-at="2024-09-17T05:41:22Z" duration-ms="16372" status="PASS">
+        <test-method is-config="true" signature="getTestNGTestName(org.testng.ITestContext, java.lang.String)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:06Z" name="getTestNGTestName" finished-at="2024-10-17T07:14:06Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@450c57b3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="ProjectEnrollment()[pri:2, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:41:22Z" name="ProjectEnrollment" finished-at="2024-09-17T05:41:35Z" duration-ms="12385" status="PASS">
+        </test-method> <!-- getTestNGTestName -->
+        <test-method is-config="true" signature="ExtentReportConfig()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:06Z" name="ExtentReportConfig" finished-at="2024-10-17T07:14:07Z" duration-ms="1539" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProjectEnrollment -->
-        <test-method signature="logout()[pri:3, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:41:35Z" name="logout" finished-at="2024-09-17T05:41:46Z" duration-ms="11299" status="PASS">
+        </test-method> <!-- ExtentReportConfig -->
+        <test-method signature="TC_01_Login()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:07Z" name="TC_01_Login" finished-at="2024-10-17T07:14:27Z" duration-ms="19534" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TC_01_LoginTest@632ceb35]" started-at="2024-09-17T05:41:46Z" name="teardown" finished-at="2024-09-17T05:41:47Z" duration-ms="1126" status="PASS">
+        </test-method> <!-- TC_01_Login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:27Z" name="getResult" finished-at="2024-10-17T07:14:27Z" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_Login status=SUCCESS method=TC_01_LoginTest.TC_01_Login()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Testcases.TC_01_LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Well-Test -->
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:14:27Z" name="flushReport" finished-at="2024-10-17T07:14:28Z" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:18:30Z" name="quit" finished-at="2024-10-17T07:18:30Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.Well.testcases.login.TC_01_LoginTest@3e0e1046]" started-at="2024-10-17T07:18:30Z" name="end" finished-at="2024-10-17T07:18:32Z" duration-ms="1822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.Well.testcases.login.TC_01_LoginTest -->
+    </test> <!-- WELL-V2-CoreProject-Single Assert-Optn-Rating -->
+  </suite> <!-- WELL Frontend Regression -->
 </testng-results>

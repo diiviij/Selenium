@@ -1,1 +1,14 @@
+<<<<<<< HEAD
+target/
+logs/
+test-output/*
+output/
+Report/
+Screenshots/
+bin/
+Downloads/
+test-recordings/
+=======
 /target/
+abcd
+>>>>>>> bc096933a99082afc2ad0f7f9233d4186f610068

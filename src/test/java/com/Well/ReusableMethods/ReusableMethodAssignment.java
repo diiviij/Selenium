@@ -76,6 +76,7 @@ public class ReusableMethodAssignment extends BaseClass {
 		CommonMethod.RobustclickElementVisible("ProjectNavBarAssignment", "WELLCertificationNavBarAssignment");
 		CommonMethod.RobustclickElementVisible("WELLCertificationNavBarAssignment", "V2ProjectClearFilterListAssignment");
 		CommonMethod.click("V2ProjectIdAssignment");
+		Thread.sleep(10000);
 		CommonMethod.sendKeys("V2ProjectIdAssignment", data.getCellData(SheetName, "ProjectID", rowNum));
 		CommonMethod.RobustclickElementVisible("V2ProjectApplybtnAssignment", "EnrollSearchPaginationAssignment");
 		CommonMethod.WaitUntilNumberOfElementToBePresentMoreThan("ProjectIdclick", 0);

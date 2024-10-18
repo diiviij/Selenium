@@ -72,15 +72,14 @@ public class ReusableMethodAssignment extends BaseClass {
 	
 	public void Enroll(String SheetName, int rowNum, String Country) throws IOException, InterruptedException
 	{
-		CommonMethod.WaitUntilNumberOfElementToBePresentMoreThan("ProjectNavBarAssignment", 0);
-		CommonMethod.RobustclickElementVisible("ProjectNavBarAssignment", "WELLCertificationNavBarAssignment");
-		CommonMethod.RobustclickElementVisible("WELLCertificationNavBarAssignment", "V2ProjectClearFilterListAssignment");
-		CommonMethod.click("V2ProjectIdAssignment");
-		CommonMethod.sendKeys("V2ProjectIdAssignment", data.getCellData(SheetName, "ProjectID", rowNum));
-		CommonMethod.RobustclickElementVisible("V2ProjectApplybtnAssignment", "EnrollSearchPaginationAssignment");
-		Thread.sleep(4000);
-		CommonMethod.WaitUntilNumberOfElementToBePresentMoreThan("ProjectIdclick", 0);
-		CommonMethod.RobustclickElementVisible("ProjectIdclick", "EnrollTabAssignment");
+//		CommonMethod.WaitUntilNumberOfElementToBePresentMoreThan("ProjectNavBarAssignment", 0);
+//		CommonMethod.RobustclickElementVisible("ProjectNavBarAssignment", "WELLCertificationNavBarAssignment");
+//		CommonMethod.RobustclickElementVisible("WELLCertificationNavBarAssignment", "V2ProjectClearFilterListAssignment");
+//		CommonMethod.click("V2ProjectIdAssignment");
+//		CommonMethod.sendKeys("V2ProjectIdAssignment", data.getCellData(SheetName, "ProjectID", rowNum));
+//		CommonMethod.RobustclickElementVisible("V2ProjectApplybtnAssignment", "EnrollSearchPaginationAssignment");
+//		CommonMethod.WaitUntilNumberOfElementToBePresentMoreThan("ProjectIdclick", 0);
+//		CommonMethod.RobustclickElementVisible("ProjectIdclick", "EnrollTabAssignment");
 		CommonMethod.WaitUntilNumberOfElementToBePresentMoreThan("EnrollTabAssignment", 0);
 		CommonMethod.RobustclickElementVisible("EnrollTabAssignment", "V2ProjectprojectOwnerContinuebtnAssignment");
 		rc.SelectOwnerOrg(SheetName, rowNum);
